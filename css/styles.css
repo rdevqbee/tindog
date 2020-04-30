@@ -1,0 +1,178 @@
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 1.5rem;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Title */
+
+/* NavBar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px 0;
+}
+
+.nav-link {
+  font-family: "Montserrat-Light";
+  font-weight: light;
+}
+
+/* Image Download */
+.image-download {
+  width: 70%;
+  transform: rotate(22deg);
+  position: absolute;
+  right: 20%;
+}
+
+/* Download Buttons */
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.featured-detail {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon-featured {
+  margin: 0 0 1rem;
+  color: #ef8172;
+}
+
+.icon-featured:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 2% 3%;
+}
+
+/* Call to Action Section */
+#cta {
+  color: #fff;
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ff4c68;
+}
+
+#cta h3 {
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  padding: ;
+}
+
+.cta-btn2 {
+  color: #fff;
+}
+
+.cta-btn2 {
+  margin: 5% 3% 5% 0;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-icon {
+  color: #8f8f8f;
+  margin: 0 10px 0;
+}
+
+.footer-icon:hover {
+  color: blue;
+}
+
+.copyright {
+  margin: 2% 0 2%;
+}
+
+/* Media Query */
+
+@media (max-width: 962px) {
+  #title {
+    text-align: center;
+  }
+  .image-download {
+    position: static;
+    transform: rotate(0);
+  }
+}
